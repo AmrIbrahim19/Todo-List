@@ -5,4 +5,10 @@ module.exports = {
     "react-app",
     "react-app/jest",
   ],
+  "rules": {
+    "prettier/prettier": ["error",{
+      "endOfLine": "auto"}
+    ]
+
+  }
 };
